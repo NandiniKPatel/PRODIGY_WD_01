@@ -1,0 +1,133 @@
+.main {
+  border: 1px solid black;
+  height: 600px;
+  width: 600px;
+  margin: auto;
+}
+.parts {
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 300px;
+  width: 300px;
+}
+
+.A {
+  display: grid;
+  grid-template-columns: auto auto;
+  border-right:1px solid black;
+  border-bottom:1px solid black;
+  height: 300px;
+  width: 300px;
+}
+.A1 {
+  height: 150px;
+  width: 150px;
+}
+.A2 {
+  border-left: 1px solid black;
+  height: 150px;
+  width: 150px;
+}
+.A3 {
+border-top:1px solid black;
+  height: 150px;
+  width: 150px;
+}
+.A4 {
+  border-top:1px solid black;
+  border-left:1px solid black;
+  height: 150px;
+  width: 150px;
+}
+.B {
+  /* border: 1px solid black; */
+  height: 300px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.B1 {
+  border-radius: 100px;
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+}
+.C {
+  height: 300px;
+  width: 300px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+.C1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+}
+.C11 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 75px;
+  border-right: 1px solid black;
+}
+.C22 {
+  height: 150px;
+  width: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.C111 {
+  height: 37.5px;
+  width: 37.5px;
+  border: 1px solid black;
+}
+.C222 {
+  height: 37.5px;
+  width: 37.5px;
+  border: 1px solid black;
+}
+.D {
+  display: grid;
+  grid-template-columns: auto auto;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  height: 300px;
+  width: 300px;
+}
+.D1 {
+  height: 300px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.D2 {
+  display: flex;
+  height: 300px;
+  width: 150px;
+  border-left: 1px solid black;
+  /* border: 1px solid black; */
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.D11 {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  border: 1px solid black;
+}
+.D22 {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  border: 1px solid black;
+}
